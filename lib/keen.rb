@@ -29,7 +29,8 @@ module Keen
                    :project_id, :project_id=,
                    :write_key, :write_key=,
                    :read_key, :read_key=,
-                   :api_url, :api_url=
+                   :api_url, :api_url=,
+                   :master_key=, :api_version
 
     def_delegators :default_client,
                    :publish, :publish_async, :publish_batch,
